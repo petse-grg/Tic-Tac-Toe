@@ -9,14 +9,14 @@ public class MainApp {
 
     /**
      *
-     *********** main method to start the application.
-     *********** application starts by asking user some information for the game.
+     ** main method to start the application.
+     ** application starts by asking user some information for the game.
      *
      * @param args
      */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter pve to play against computer or pvp for two players: ");
+        System.out.print("Enter pve to play against computer: ");
         String playerType = scanner.nextLine();
         System.out.println("Playing " + playerType);
 
@@ -44,31 +44,4 @@ public class MainApp {
         BoardSetUp computerBoard = new BoardSetUp(players);
         computerBoard.play();
     }
-    /* EOF */
 }
-
-/**
- * TODO: Player vs Player implementation
- * if (playerType.equalsIgnoreCase("pvp")) {
- * playerVsPlayer(playerType);
- * }
- * 
- * private static void playerVsPlayer(String playerType) {
- * 
- * Player firsPlayer = new Player();
- * firsPlayer = new Player();
- * firsPlayer.setPlayerId('1');
- * firsPlayer.setPlayerSymbol('X');
- * firsPlayer.playerInfo();
- * 
- * Player secondPlayer = new Player();
- * secondPlayer = new Player();
- * secondPlayer.setPlayerId('2');
- * secondPlayer.setPlayerSymbol('O');
- * secondPlayer.playerInfo();
- * 
- * Player[] players = new Player[] { firsPlayer, secondPlayer };
- * BoardSetUp playersBoard = new BoardSetUp(players);
- * // playersBoard.displayBoard(.getPlayerSymbol());
- * }
- */

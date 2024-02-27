@@ -60,5 +60,4 @@ public class Player {
         playerName = scanner.nextLine();
         System.out.println("Player Name: " + playerName);
     }
-    /* EOF */
 }

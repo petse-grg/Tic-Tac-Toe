@@ -119,5 +119,4 @@ public class BoardSetUp {
         }
         return flag;
     }
-    /* EOF */
 }

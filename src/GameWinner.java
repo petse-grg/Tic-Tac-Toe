@@ -3,8 +3,8 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * This Class is define winning condition for the game.
- * as well as to check if there is a winner or the game is draw.
+ * This Class defines winning condition for the game.
+ * as well as to check if there is a winner or not.
  * The condition for winner is saved in List.
  * This List is iterated in pveWinner() to check winner of player against
  * computer match.
@@ -74,8 +74,3 @@ public class GameWinner {
     }
     /* EOF */
 }
-/**
- * TODO: Winner for player vs player
- * private boolean pvpWinner(Player[] player) {
- * return false;
- */

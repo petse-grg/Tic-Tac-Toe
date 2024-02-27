@@ -1,5 +1,5 @@
 /*
- * This class validates if a player move or 
+ * This class validates a player move or 
  * computer move is placed on valid spot of the arrays.
  * 
  */
@@ -77,5 +77,4 @@ public class ValidatePlacement {
                 return false;
         }
     }
-    /* EOF */
 }
